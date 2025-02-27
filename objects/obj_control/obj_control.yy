@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_car",
+  "%Name":"obj_control",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_car",
+  "name":"obj_control",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_car",
-    "path":"sprites/spr_car/spr_car.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

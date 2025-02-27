@@ -24,3 +24,8 @@ show_debug_message(speedMove);
 x += speedMove;
 
 x = clamp(x, _limitLeft, _limitRight);
+
+instance_create_depth(x,y,depth +1,obj_smoke)
+
+
+

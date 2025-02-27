@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_car",
+  "%Name":"obj_smoke",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_car",
+  "name":"obj_smoke",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_car",
-    "path":"sprites/spr_car/spr_car.yy",
+    "name":"spr_smoke",
+    "path":"sprites/spr_smoke/spr_smoke.yy",
   },
   "spriteMaskId":null,
   "visible":true,
