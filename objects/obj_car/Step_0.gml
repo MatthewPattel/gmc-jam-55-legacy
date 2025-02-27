@@ -1,5 +1,7 @@
 /// @description Movement
 
+var _currentSpeedAcc = speedAcc * (global.gameSpeed*0.7);
+
 var _limitLeft = (room_width/2) - 64 + (sprite_width/2);
 var _limitRight = (room_width/2) + 64 - (sprite_width/2);
 
@@ -9,12 +11,12 @@ var _moveRight = (keyboard_check(vk_right) or keyboard_check(ord("D")));
 var _move = _moveRight - _moveLeft;
 
 if (_move != 0) {
-	speedMove = speedMove + (speedAcc * _move);
+	speedMove = speedMove + (_currentSpeedAcc * _move);
 } else {
 	if (speedMove > 0) {
-		speedMove -= speedAcc;
+		speedMove -= _currentSpeedAcc;
 	} else if (speedMove < 0) {
-		speedMove += speedAcc;
+		speedMove += _currentSpeedAcc;
 	}
 }
 speedMove = clamp(speedMove, -speedMax, speedMax);
